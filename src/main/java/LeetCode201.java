@@ -27,11 +27,41 @@ public class LeetCode201 {
         for(int i = m; i <= n; i++){
 
         }
+        return 0;
+    }
+
+    public static int rangeBitwiseAnd3(int m, int n) {
+        if(m == 0){
+            return 0;
+        }
+        int temp = 1;
+        while(m != n){
+            m >>= 1;
+            n >>= 1;
+            temp <<= 1;
+        }
+        return m * temp;
+
     }
 
 
+    // 低位会很混乱，所以只看高位情况
+    public static int rangeBitwiseAnd4(int m,int n){
+        if(m == 0){
+            return 0;
+        }
+        int temp = 1;
+        while (m!=n){
+            m >>= 1;
+            n >>= 1;
+            temp <<= 1;
+        }
+        return m*temp;
+    }
+
     public static void main(String[] args) {
-        int a = rangeBitwiseAnd(5,7);
+        // int a = rangeBitwiseAnd3(13,18);
+        int a = rangeBitwiseAnd4(13,18);
         System.out.println(a);
     }
 
