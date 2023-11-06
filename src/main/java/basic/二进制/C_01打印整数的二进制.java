@@ -1,6 +1,6 @@
 package basic.二进制;
 
-public class 打印整数的二进制 {
+public class C_01打印整数的二进制 {
 
     public static void main(String[] args) {
         int num = 4;
