@@ -2,18 +2,21 @@ package leetcode110_balanced_binary_tree;
 
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * public class tree.TreeNode {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *     tree.TreeNode left;
+ *     tree.TreeNode right;
+ *     tree.TreeNode() {}
+ *     tree.TreeNode(int val) { this.val = val; }
+ *     tree.TreeNode(int val, tree.TreeNode left, tree.TreeNode right) {
  *         this.val = val;
  *         this.left = left;
  *         this.right = right;
  *     }
  * }
+ *
+ * 如果一棵树中序遍历的结果严格递增，则这棵树一定是搜索二叉树。
+ *
  */
 public class Solution {
 

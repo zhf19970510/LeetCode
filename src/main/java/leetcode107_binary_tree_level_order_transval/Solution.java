@@ -6,13 +6,13 @@ import java.util.Queue;
 
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * public class tree.TreeNode {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *     tree.TreeNode left;
+ *     tree.TreeNode right;
+ *     tree.TreeNode() {}
+ *     tree.TreeNode(int val) { this.val = val; }
+ *     tree.TreeNode(int val, tree.TreeNode left, tree.TreeNode right) {
  *         this.val = val;
  *         this.left = left;
  *         this.right = right;
