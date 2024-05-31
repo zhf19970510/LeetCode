@@ -45,8 +45,8 @@ package leetcode02;
  * 4. 每次得到的当前位结果依次加入到结果链表末位
  */
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
     ListNode(){}
     ListNode(int val) {
         this.val = val;
